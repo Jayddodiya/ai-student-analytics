@@ -1,0 +1,87 @@
+@import "tailwindcss";
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.text1{
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+}
+.text2{
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.text3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.forgotPassword{
+    color: #7f56d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginlabel{
+    font-size: 16px;
+}
+.logincol{
+    width: 100%;
+}
+
+.loginbtn{
+    background-color: #7f56d9 !important;
+    width: 100%;
+    border-color: #7f56d9 !important;
+}
+
+.form-check-input:checked {
+    background-color: #7f56d9 !important;
+    border-color: #7f56d9 !important;
+}
+
+.loginbtn2{
+    background-color: white !important;
+    border-color: gray !important;
+    color: black !important;
+    width: 100%;
+     display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+
+}
+
+.loginImg{
+    height: 25px;
+    width: 25px;
+}
+
+.logo{
+
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}

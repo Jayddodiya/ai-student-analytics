@@ -1,0 +1,57 @@
+.admin_sidebar{
+  width: 250px;
+  background: #111827;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.admin_sidebar_logo{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.admin_sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+
+/* .admin_sidebar ul li{
+  margin-bottom: 10px;
+} */
+
+/* Link */
+
+.admin_sidebar ul li a{
+  display: flex;
+  padding: 15px;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+/* Hover */
+
+.admin_sidebar ul li a:hover{
+  background: white;
+  color: #111827 !important;
+}
+
+/* Active */
+
+.admin_sidebar ul li a.active{
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+/* Remove Default */
+
+a{
+  text-decoration: none;
+}
+
+.sidebar_icon{
+  margin-right: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,51 @@
+.sidebar{
+  width: 200px;
+  background: #f7f7f7;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sidebar_logo{
+  color: black;
+  margin-bottom: 5px;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li{
+  margin-bottom: 10px;
+}
+
+/* Link */
+
+.sidebar ul li a{
+  display: block;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+/* Hover */
+
+.sidebar ul li a:hover{
+  background: white;
+}
+
+/* Active */
+
+.sidebar ul li a.active{
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+/* Remove Default */
+
+a{
+  text-decoration: none;
+}

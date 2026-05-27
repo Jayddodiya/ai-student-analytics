@@ -1,0 +1,34 @@
+.admin_navbar{
+  background-color: #111827 !important;
+  padding: 10px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+}
+
+.admin_navRight{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin_search{
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.admin_avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.admin_nav_btn{
+  border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
